@@ -21,7 +21,7 @@ export const installRouter: Plugin = (app)=> {
           component: ()=> import('@/layouts/DummyLayout.vue'),
           children: [
             {
-              path: "/:refId",
+              path: "/ref/:refId(.*)*",
               name: 'referralSubscribe',
               component: ()=>import('@/views/SubscribeView.vue'),
             },
