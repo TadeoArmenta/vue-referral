@@ -1,0 +1,6 @@
+<template>
+  <RouterView />
+</template>
+<script lang="ts" setup>
+</script>
+<script lang="ts">export default {name: "DummyLayout"}</script>
